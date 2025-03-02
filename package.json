@@ -1,0 +1,26 @@
+{
+  "name": "flux-img-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for generating images using Replicate API",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0",
+    "axios": "^1.6.7",
+    "file-type": "^18.7.0",
+    "fuse.js": "^7.0.0",
+    "strict-event-emitter-types": "^2.0.0",
+    "uri-templates": "^0.2.0",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.22.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/uri-templates": "^0.1.33",
+    "typescript": "^5.3.3"
+  }
+}
