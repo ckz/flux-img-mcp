@@ -4,6 +4,11 @@ This MCP server provides image generation capabilities using the Flux Schnell mo
 
 ## Installation
 
+0. Install the MCP SDK globally:
+```bash
+npm install -g @modelcontextprotocol/sdk@latest
+```
+
 1. Clone this repository to your MCP servers directory:
 ```bash
 cd ~/Documents/Cline/MCP
@@ -11,6 +16,8 @@ git clone https://github.com/yourusername/flux-img-mcp.git
 cd flux-img-mcp
 npm install
 ```
+
+
 
 2. Build the server:
 ```bash
